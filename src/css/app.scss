@@ -1,0 +1,56 @@
+// app global css in SCSS form
+@font-face {
+  font-family: Avenir;
+  src: url(../assets/Avenir-Black.woff);
+}
+@font-face {
+  font-family: Avenir-Book;
+  src: url(../assets/Avenir-Book.woff);
+}
+
+body {
+  font-family: Avenir;
+  padding: 2vw;
+
+}
+.title-filters{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.inputs-field{
+  display: flex;
+  flex-direction: column;
+
+}
+
+i.notranslate.material-icons.q-icon {
+  margin: 0 10vw !important;
+}
+
+
+
+div#checkbox {
+  opacity: .4;
+  font-size: 15px;
+}
+
+.q-card__section.q-card__section--vert {
+  height: 30vh;
+}
+
+.title-filters{
+  font-size: 12px;
+}
+
+.q-drawer__content.fit.scroll.drawer {
+  padding-left: 4vw;
+}
+
+
+button.q-btn.q-btn-item.non-selectable.no-outline.q-btn--standard.q-btn--rectangle.bg-primary.text-white.q-btn--actionable.q-focusable.q-hoverable {
+  border-radius: 50%;
+}
+
